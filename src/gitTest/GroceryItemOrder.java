@@ -26,6 +26,6 @@ public class GroceryItemOrder {
 
     @Override
     public String toString() {
-        return "Navn: " + name + " Antal: " + quant + " Pris: " + price;
+        return "Navn: " + name + " Antal: " + quant + " Pris: " + price + "kr.";
     }
 }
