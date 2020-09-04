@@ -1,7 +1,7 @@
 package gitTest;
 
 public class GroceryList {
-    String[] GroceryItems = new String[10];
 
+    String[] GroceryItems = new String[10];
 
 }
