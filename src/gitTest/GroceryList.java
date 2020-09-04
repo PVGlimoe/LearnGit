@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class GroceryList {
 
-    String[] listOfgroceryItems = new String[10];
+    GroceryItemOrder[] listOfgroceryItems = new GroceryItemOrder[10];
     private int listNumber = 0;
 
 
@@ -15,7 +15,7 @@ public class GroceryList {
                 '}';
     }
 
-    public void addItemToGroceryItems(String item){
+    public void addItemToGroceryItems(GroceryItemOrder item){
         if (listOfgroceryItems[9] == null){
             listOfgroceryItems[listNumber] = item;
             listNumber++;
